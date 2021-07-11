@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/MurilloGroupMSU/spartan/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-<a href="foo.html">click me!</a>
+<a href="foo.md">click me!</a>
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
