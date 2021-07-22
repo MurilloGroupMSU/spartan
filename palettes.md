@@ -6,8 +6,20 @@ spartan provides several palettes of several types.
 
 Give example of "How easy is this to read?" with different colors on different lines, compared with matplotlib, jet, etc. 
 
-"#5b8c63", "#5b848c", "#635b8c", "#8c5b84", "#8c635b", "#848c5b"
+Let's compare two palettes, beginning with the matplotlib default:
 
+<span style = "color: #1f77b4;"> How easy is this to read?</span> <br>
+<span style = "color: #ff7f0e;"> How easy is this to read?</span> <br>
+<span style = "color: #2ca02c;"> How easy is this to read?</span> <br>
+<span style = "color: #d62728;"> How easy is this to read?</span> <br>
+<span style = "color: #9467bd;"> How easy is this to read?</span> <br>
+<span style = "color: #8c564b;"> How easy is this to read?</span> <br>
+<span style = "color: #e377c2;"> How easy is this to read?</span> <br>
+<span style = "color: #7f7f7fb;"> How easy is this to read?</span> <br>
+<span style = "color: #bcbd22;"> How easy is this to read?</span> <br>
+<span style = "color: #17becf;"> How easy is this to read?</span> <br>
+
+Second, this is the spartan earth palette (also with a color cycle of length 10):
 <span style = "color: #5b8c63;"> How easy is this to read?</span> <br>
 <span style = "color: #5b848c;"> How easy is this to read?</span> <br>
 <span style = "color: #635b8c;"> How easy is this to read?</span> <br>
