@@ -2,6 +2,8 @@
 
 spartan provides several palettes of several types. 
 
+![](palettes.png)
+
 Give example of "How easy is this to read?" with different colors on different lines, compared with matplotlib, jet, etc. 
 
 ### Varying Hue
