@@ -20,6 +20,7 @@ Let's compare two palettes, beginning with the matplotlib default:
 <span style = "color: #17becf;"> How easy is this to read?</span> <br>
 
 Second, this is the spartan earth palette (also with a color cycle of length 10):
+
 <span style = "color: #5b8c63;"> How easy is this to read?</span> <br>
 <span style = "color: #5b848c;"> How easy is this to read?</span> <br>
 <span style = "color: #635b8c;"> How easy is this to read?</span> <br>
