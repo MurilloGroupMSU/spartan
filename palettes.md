@@ -8,12 +8,9 @@ Give example of "How easy is this to read?" with different colors on different l
 
 "#5b8c63", "#5b848c", "#635b8c", "#8c5b84", "#8c635b", "#848c5b"
 
-<span style = "color: #5b8c63;"> How easy is this to read?</span>
-
-<span style = "color: #5b848c;"> How easy is this to read?</span>
-
-<span style = "color: #635b8c;"> How easy is this to read?</span>
-
+<span style = "color: #5b8c63;"> How easy is this to read?</span> <br>
+<span style = "color: #5b848c;"> How easy is this to read?</span> <br>
+<span style = "color: #635b8c;"> How easy is this to read?</span> <br>
 <span style = "color: #8c5b84;"> How easy is this to read?</span> <br>
 <span style = "color: #8c635b;"> How easy is this to read?</span> <br>
 <span style = "color: #848c5b;"> How easy is this to read?</span> <br>
