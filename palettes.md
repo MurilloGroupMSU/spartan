@@ -35,7 +35,7 @@ Second, this is the spartan earth palette (also with a color cycle of length 10)
 
 ### Varying Hue
 
-Two types of varying hue palettes are available. The palettes listed in this table are intended to be used when the range of hues needs to be maximized and there is no risk of color bias. The palettes have been designed to work well on a white background and minimize bright colors that are difficult to see (e.g., <span style = "color: #ffff00;"> light yellows </span> or <span style = "color: #00ff00;"> greens  </span>).
+Two types of varying hue palettes are available. The palettes listed in this table are intended to be used when the range of hues needs to be maximized and there is no risk of color bias. The palettes have been designed to work well on a white background and minimize bright colors that are difficult to see (e.g., <span style = "color: #eeee00;"> light yellows </span> or <span style = "color: #00ff00;"> greens  </span>).
 
 A bit on the algorithm	used....
 
