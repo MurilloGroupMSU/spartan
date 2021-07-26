@@ -1,3 +1,3 @@
 
-[like this](https://seaborn.pydata.org/)
+[gallery](https://seaborn.pydata.org/)
 
