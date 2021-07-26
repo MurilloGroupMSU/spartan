@@ -1,5 +1,7 @@
 ## Palettes
 
+<a href="gallery.html">Click here to go to the gallery</a>
+
 spartan provides several palettes of several types. 
 
 ![](palettes.png)
