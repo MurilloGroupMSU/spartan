@@ -1,6 +1,6 @@
 ## Palettes
 
-<a href="gallery.html">Click here to go to the gallery</a>
+<a href="gallery.md">Click here to go to the gallery</a>
 
 spartan provides several palettes of several types. 
 
