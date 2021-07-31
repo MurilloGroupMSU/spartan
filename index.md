@@ -12,6 +12,6 @@ ____
 ### Table of Contents
 ___
 
-* [Installation and Getting Started](insallation.md)
+* [Installation and Quick Start](installation-quick-start.md)
 * [Gallery](gallery.md)
 * [Tutorial](tutorial.md)
