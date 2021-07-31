@@ -6,6 +6,8 @@ This page summarizes some of the important aspects of color theory that are used
 
 To make the ideas concrete and applicable to your work, I'll consider the specific problem of creating a color palette. That is, imagine you wish to have a sequence of colors that starts at given color, ends at a given color and has $N-2$ colors in between; this defines the color cycle, which would then repeat if sampled more than $N$ times.
 
+### User Facing RGB 
+
 The first issue we have to deal with is how we specify the initial and final colors. There are many ways to do this, as we will see, but spartan (currently) makes the choice that the user (you!) will know your colors in the RGB color space. This space is fairly intuitive and common - we are typically taught to think this way in school and many of our electronic devices are specified this way. There are three common ways to make this specification:
 
 1. The R, G, and B values are given in the range [0,1], where the value is a float (real number). 
@@ -20,15 +22,16 @@ Before we get to that, let's stick with color palettes built directly from user 
 
 Let's look at some examples.... [more 1D plots...]
 
+____
 ### CIEXYZ and CIELAB Color Spaces
 
 For almost all uses, the linear interpolation method works just fine. Chose your colors to have some meanings and you get a nicely spaced range of colors in between. The problem arises when you need to exert additional control over the colors in your bespoke palette. Are the colors generated kind to color blind people? Do they print well in black and white? And, so on. One of the most important issues is psychological: what colors does the brain see as "popping out", being "more important"? Related, are there colors in your palette that blend with the background because they are too light? In this important use case we need to take into account not how the eye works, but how the brain works. 
 
 
-
 The XYZ color space is designed to isolate the luminance of a color from its chromaticity. The luminance is given by the Y value and thus the chromaticity is specified by the X and Z values.
 
-## Creating Palettes
+____
+### Creating Palettes
 
 There are many ways to create palettes and many types of palettes you will want to create. 
 
