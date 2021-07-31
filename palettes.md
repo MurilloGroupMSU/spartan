@@ -36,7 +36,7 @@ ____
 
 Two types of varying hue palettes are available. The palettes listed in this table are intended to be used when the range of hues needs to be maximized and there is no risk of color bias. The palettes have been designed to work well on a white background and minimize bright colors that are difficult to see (e.g., <span style = "color: #eeee00;"> light yellows </span> or <span style = "color: #00ff00;"> greens  </span>).
 
-A bit on the algorithm	used....
+The color theory used to create spartan's palettes is beyond the scope of this webpage. If you are interested in the details, click [here](color_theory).
 
 Each of the palettes comes in a set of four to allow for different repeat cycles. Replace each of the names given in the table with that name with the number $4, 6, 8, 10$ to indicate your desired cycle length, as in `earth4` or `pastel10`. A shorter cycle has more hue contrast among the colors, whereas the hue gradients are necessarily less when the cycle is longer. 
 
