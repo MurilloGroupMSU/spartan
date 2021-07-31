@@ -1,4 +1,5 @@
 ____
+____
 # Tutorial
 ____
 
@@ -20,7 +21,7 @@ and so on. This is implemented through the `spartan.mplstyle` file; all of the d
 
 In these example plots one sees the key differences. 
 
-
+____
 ## Context Styles
 
 Spartan's base style may be all that you need for most use cases. However, spartan has context styles to handle nuanced use cases that require small changes to the defaults. Spartan currently has five context styles for viewing on the screen, in a publication, at a poster presentation, during an online presentation and at an in-person talk. The context can be set when you initialize spartan using:
@@ -52,14 +53,17 @@ Online talks are similar to viewing graphics on the screen; however, the quality
 Most projection systems have low resolution, poor color quality and lower contrast -- much less than your monitor. The in-person talk context accounts for these deficiencies with larger fonts, higher-contrast color palettes (with less reliance on green) and thicker lines. (If you are lucky enough to have access to a wide gamut HDR projector, consider using the screen context instead.)
 
 
+____
 ## Plot Types
 
 Spartan currently supports seven plot types (not including plots you make using the basic spartan style and palettes). 
 
 ### Minimal
 
+One of Tufte's principles is to maximize the ratio of data to ink, the so-called data-ink ratio. Spartan's basic style captures most of this spirit, whereas the minimal plot types removes all axes and grids as well.
 
-### Scatter (rug and kde)
+
+### Scatter
 
 Minimal scatter plots are also available with options for rug or kde along the axes, and/or with a range frame.
 
@@ -80,7 +84,7 @@ It is often the case that our data varies over many orders of magnitude and, for
 
 ### Sparklines
 
-Spartan provides sparklines, which are typically very small line plots without axes or the usual labels. Spartan's sparklines can be used with no labels, with the minimum, maximum and final values labeled, with a zero value line or with a band reflecting the mean and variance.
+Spartan provides sparklines, which are typically very small line plots without axes or the usual labels. (This is more minimal than the minimal plot.) Spartan's sparklines can be used with no labels, with the minimum, maximum and final values labeled, with a zero value line or with a band reflecting the mean and variance.
 
 
 ### Parallel Plot
