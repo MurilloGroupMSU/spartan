@@ -14,7 +14,7 @@ This step customizes the default settings for `matplotlib`, which can then be us
 * a dim grid,
 * a custom color palette,
 * 16 point Arial font,
-* fancy lengend,
+* fancy legend,
 
 and so on. This is implemented through the `spartan.mplstyle` file; all of the details can be found in that file. This may be most of what you need just to get a new look for your plots! 
 
@@ -35,7 +35,13 @@ The screen context applies when you have a high quality monitor and wish to exam
 
 ### Publication
 
+Publications are often viewed on paper or on a screen, in principle allowing for smaller fonts, thinner lines and nuanced colors. However, many journals have specific requirements that include minimum font sizes, colors that can be viewed in black and white, varying linestyles and lack of a colored background. Spartan makes a conservative estimate for such use cases; each journal has its specific set of choices, of course, and you may need to tweak the defaults for a specific journal. 
+
+
 ### Poster
+
+Posters are typically viewed from a wide range of distances and spartan uses the largest fonts sizes and linewidth for this context. 
+
 
 ### Online Talk
 
