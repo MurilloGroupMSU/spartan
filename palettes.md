@@ -1,7 +1,5 @@
 ## Palettes
 
-<a href="gallery.md">Click here to go to the gallery</a>
-
 [and try this](gallery.md)
 
 
