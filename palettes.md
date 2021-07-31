@@ -1,3 +1,4 @@
+____
 ## Palettes
 
 Spartan provides several palettes of several types. While you may wish to choose a palette for purely aesthtic reasons, some of spartan's palettes were designed to follow good visualization practices. Choose one because you like it, or choose one because it best matches your communication goal.
@@ -30,7 +31,7 @@ Second, this is the spartan earth palette (also with a color cycle of length 10)
 <span style = "color: #8c8b5b;"> How easy is this to read?</span> <br>
 <span style = "color: #708c5b;"> How easy is this to read?</span> <br>
 
-
+____
 ### Varying Hue
 
 Two types of varying hue palettes are available. The palettes listed in this table are intended to be used when the range of hues needs to be maximized and there is no risk of color bias. The palettes have been designed to work well on a white background and minimize bright colors that are difficult to see (e.g., <span style = "color: #eeee00;"> light yellows </span> or <span style = "color: #00ff00;"> greens  </span>).
@@ -57,7 +58,7 @@ Four palettes are provided that have a smaller number of hues and can be used to
 | `clay`    | green start, ten grays, repeat |
 
 
-
+____
 ### Constant Hue
 
 In some cases we do not want color changes to imply that something has changed other than perhaps a numerical value, such as height. In these use cases we desire a single color that continuously shifts not in hue but in saturation and/or brightness. As above, there are four cycle lengths: `blue_gradient4` through `blue_gradient10`. 
@@ -67,6 +68,7 @@ In some cases we do not want color changes to imply that something has changed o
 | `blue_gradient`    | green start, ten grays, repeat |
 
 
+____
 ### Grays
 
 We often wish to call attention to a specific curve, or small subset of curves, in the background of reference data. Color can be used to aid the viewer to see this distinction. A common choice is to make the reference curves gray and the main curve a bright color. We provide two types of palettes for this use case. The first palette begins on a bright color and subsequent colors are gray: plot your most important curve first, then all of the reference curves. The second type uses a gradation in the gray levels to indicate that each curve is less important, as when there is a trend among the curves not captured by the axes (e.g., each curve is from a different year and the most recent is most relevant). 
