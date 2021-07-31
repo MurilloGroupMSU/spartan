@@ -12,17 +12,40 @@ The simplest use of `spartan` is to instantiate it using
 import spartan as sp
 ```
 
-This step customizes the default settings for `matplotlib`, which can then be used as usual. Changes to the style include:
+This step customizes the default settings for `matplotlib`, which can then be used as usual. Many changes to the default matplotlib style are made by spartan, all with the goal of making the plot more tidy. A few of of the changes are:
 
 * removal of unnecessary spines,
 * a dim grid,
 * a custom color palette,
 * 16 point Arial font,
-* fancy legend,
+* fancy legend.
 
-and so on. This is implemented through the `spartan.mplstyle` file; all of the details can be found in that file. This may be most of what you need just to get a new look for your plots! 
+If you like the spartan look and feel, simply performing the import is all you need. Feel free to access the `spartan.mplstyle` file through github and use it as your starting point.
 
-In these example plots one sees the key differences. 
+Let's look at some examples to see the spartan style.
+
+____
+
+### <span style="color:#18453b">Palettes</span>
+
+Matplotlib provides several palettes that are used to color the lines and points in your plots according to a chosen cycle. Spartan provides 50+ new palettes. There are numerous reasons for choosing a specific color palette:
+
+* the colors fit the mood of the narrative you are telling: vibrant, earthy, muted,
+* you wish to avoid psychological connections to certain colors, like red or purple,
+* you want to show several lines, but highlight one of them by using grays and a red,
+* you want to be sure all colors are perceived the same on a white background,
+* you want to illustrate a trend, perhaps from hot to cold,
+* you want the colors as different as possible because the lines are very close in the plot,
+* you want to illustrate a trend of a single quantity, using one hue with varying brightness.
+
+It is worth thinking about your narrative and whether or not a well chosen palette helps you communicate it to your audience.
+
+Many of the palettes within spartan are constructed so that you can choose a repeat cycle. For example, suppose you want to use the MAC palette, which transitions from a green to an orange with no intermediate colors, and you have 6 lines to draw. Full use of the palette would require the repeat cycle to have a length of 6 so that the first line is full green and the final line is full orange. Spartan provides for these cases with 4 repeat cycles for each palette in lengths of 4, 6, 8 and 10. If you don't have a specific repeat cycle, it is still best to choose the palette closest to the number of lines in your plot: the smaller the repeat cycle, the larger the difference in the color of adjacent lines. 
+
+Let's look at some examples of what spartan offers....
+
+More details on spartan's palettes can be found [here](palettes.md). 
+
 
 ____
 
