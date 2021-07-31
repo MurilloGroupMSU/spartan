@@ -6,6 +6,7 @@ This page summarizes some of the important aspects of color theory that are used
 
 To make the ideas concrete and applicable to your work, I'll consider the specific problem of creating a color palette. That is, imagine you wish to have a sequence of colors that starts at given color, ends at a given color and has $N-2$ colors in between; this defines the color cycle, which would then repeat if sampled more than $N$ times.
 
+___
 ### User Facing RGB 
 
 The first issue we have to deal with is how we specify the initial and final colors. There are many ways to do this, as we will see, but spartan (currently) makes the choice that the user (you!) will know your colors in the RGB color space. This space is fairly intuitive and common - we are typically taught to think this way in school and many of our electronic devices are specified this way. There are three common ways to make this specification:
