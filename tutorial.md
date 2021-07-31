@@ -23,16 +23,27 @@ In these example plots one sees the key differences.
 
 ## Context Styles
 
-Because visuals are used in a variety of contexts
+Spartan's base style may be all that you need for most use cases. However, spartan has context styles to handle nuanced use cases that require small changes to the defaults. Spartan currently has five context styles for viewing on the screen, in a publication, at a poster presentation, during an online presentation and at an in-person talk. The context can be set when you initialize spartan using:
+```python
+sp.init_context("screen")
+```
+
+
 ### Screen
 
-### Paper
+The screen context applies when you have a high quality monitor and wish to examine the graphic in detail. Such a situation allows for less ink: thinner lines and smaller fonts. This context exploits the fact that our eyes are capable of easily resolving small details when needed, which allows us to minimize those details relative to the data in the graphic.
+
+### Publication
 
 ### Poster
 
 ### Online Talk
 
+Online talks are similar to viewing graphics on the screen; however, the quality of transmission is often poor and the viewing time is not controlled by the viewer. In this context, the font sizes and linewidths are increased.
+
 ### In Person Talk
+
+Most projection systems have low resolution, poor color quality and lower contrast -- much less than your monitor. The in-person talk context accounts for these deficiencies with larger fonts, higher-contrast color palettes (with less reliance on green) and thicker lines. (If you are lucky enough to have access to a wide gamut HDR projector, consider using the screen context instead.)
 
 ___
 
