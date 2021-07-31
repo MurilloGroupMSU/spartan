@@ -12,7 +12,7 @@ The simplest use of `spartan` is to instantiate it using
 import spartan as sp
 ```
 
-This step customizes the default settings for `matplotlib`, which can then be used as usual. Many changes to the default matplotlib style are made by spartan, all with the goal of making the plot more tidy. A few of of the changes are:
+This step customizes the default settings for `matplotlib`, which can then be used as usual. Many changes to the default matplotlib style are made by spartan, all with the goal of making the plot more tidy. A few of the changes are:
 
 * removal of unnecessary spines,
 * a dim grid,
