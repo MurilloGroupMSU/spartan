@@ -24,6 +24,13 @@ Before we get to that, let's stick with color palettes built directly from user 
 
 Let's look at some examples.... [more 1D plots...]
 
+
+___
+### Spartan's Custom Palettes and the HSB Color Space 
+
+Many of the palettes in spartan were obtained by....
+
+
 ____
 ### CIEXYZ and CIELAB Color Spaces
 
