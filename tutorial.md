@@ -4,7 +4,7 @@ ____
 ____
 
 
-## Base Style <span style="color:blue">some *blue* text</span>.
+## <span style="color:#18453b">Base Style</span>
 
 
 The simplest use of `spartan` is to instantiate it using
@@ -27,7 +27,7 @@ In these example plots one sees the key differences.
 
 ____
 
-## Context Styles
+## <span style="color:#18453b">Context Styles</span>
 
 Spartan's base style may be all that you need for most use cases. However, spartan has context styles to handle nuanced use cases that require small changes to the defaults. Spartan currently has five context styles for viewing on the screen, in a publication, at a poster presentation, during an online presentation and at an in-person talk. The context can be set when you initialize spartan using:
 ```python
