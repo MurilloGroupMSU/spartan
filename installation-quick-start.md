@@ -5,7 +5,13 @@ ____
 
 [like this](https://seaborn.pydata.org/installing.html)
 
-`pip` and `conda`
+```python
+pip install spartan
+```
+
+```python
+conda install spartan
+```
 
 
 ____
