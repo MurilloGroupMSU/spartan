@@ -7,3 +7,8 @@ a {
   color:#18453b;
   text-decoration:none;
 }
+
+a:hover, a:focus {
+  color:#026602;
+  font-weight: bold;
+}
