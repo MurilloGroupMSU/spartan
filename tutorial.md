@@ -28,15 +28,15 @@ ____
 
 ### <span style="color:#18453b">Palettes</span>
 
-Matplotlib provides several palettes that are used to color the lines and points in your plots according to a chosen cycle. Spartan provides 50+ new palettes. There are numerous reasons for choosing a specific color palette:
+Matplotlib provides several palettes that are used to color the lines and points in your plots according to a chosen cycle. Spartan provides 50+ new palettes. There are numerous reasons for choosing a specific color palette; you may wish to
 
-* the colors fit the mood of the narrative you are telling: vibrant, earthy, muted,
-* you wish to avoid psychological connections to certain colors, like red or purple,
-* you want to show several lines, but highlight one of them by using grays and a red,
-* you want to be sure all colors are perceived the same on a white background,
-* you want to illustrate a trend, perhaps from hot to cold,
-* you want the colors as different as possible because the lines are very close in the plot,
-* you want to illustrate a trend of a single quantity, using one hue with varying brightness.
+* have colors fit the narrative mood: vibrant, earthy, muted,
+* avoid psychological connections to certain colors, like red or purple,
+* show several lines, but highlight one of them by using grays and a red,
+* be sure all colors are perceived the same on a white background,
+* illustrate a trend, perhaps from hot to cold,
+* have colors as different as possible because the lines are very close in the plot,
+* illustrate a trend of a single quantity, using one hue with varying brightness.
 
 It is worth thinking about your narrative and whether or not a well chosen palette helps you communicate it to your audience.
 
