@@ -3,9 +3,9 @@ ____
 # Tutorial
 ____
 
-```markdown
-## Base Style
-```
+
+## Base Style <span style="color:blue">some *blue* text</span>.
+
 
 The simplest use of `spartan` is to instantiate it using
 
@@ -26,9 +26,9 @@ and so on. This is implemented through the `spartan.mplstyle` file; all of the d
 In these example plots one sees the key differences. 
 
 ____
-```markdown
+
 ## Context Styles
-```
+
 Spartan's base style may be all that you need for most use cases. However, spartan has context styles to handle nuanced use cases that require small changes to the defaults. Spartan currently has five context styles for viewing on the screen, in a publication, at a poster presentation, during an online presentation and at an in-person talk. The context can be set when you initialize spartan using:
 ```python
 sp.init_context("screen")
