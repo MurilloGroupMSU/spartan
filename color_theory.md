@@ -26,7 +26,7 @@ Let's look at some examples.... [more 1D plots...]
 
 
 ___
-### Spartan's Custom Palettes and the HSB Color Space 
+### Spartan's Custom Palettes and the HSB/HSV Color Space 
 
 Many of the palettes in spartan were obtained by....
 
