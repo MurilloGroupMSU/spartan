@@ -1,15 +1,10 @@
 ## Palettes
 
-[and try this](gallery.md)
-
-
-spartan provides several palettes of several types. 
+Spartan provides several palettes of several types. While you may wish to choose a palette for purely aesthtic reasons, some of spartan's palettes were designed to follow good visualization practices. Choose one because you like it, or choose one because it best matches your communication goal.
 
 ![](palettes.png)
 
-Give example of "How easy is this to read?" with different colors on different lines, compared with matplotlib, jet, etc. 
-
-Let's compare two palettes, beginning with the matplotlib default:
+To get a feel for how you might use different palettes, considering writing text on a white background. Let's compare two palettes, beginning with the matplotlib default:
 
 <span style = "color: #1f77b4;"> How easy is this to read?</span> <br>
 <span style = "color: #ff7f0e;"> How easy is this to read?</span> <br>
