@@ -9,7 +9,7 @@ The simplest use of `spartan` is to instantiate it using
 
 ```python
 import spartan as sp
-```.
+```
 
 This step customizes the default settings for `matplotlib`, which can then be used as usual. Changes to the style include:
 
