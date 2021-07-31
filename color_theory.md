@@ -30,6 +30,7 @@ ___
 
 Many of the palettes in spartan were obtained by....
 
+![HSV](HSV_color_solid_cylinder_saturation_gray.png)
 
 ____
 ### CIEXYZ and CIELAB Color Spaces
