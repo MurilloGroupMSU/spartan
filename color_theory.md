@@ -30,6 +30,8 @@ ___
 
 Many of the palettes in spartan were obtained by....
 
+Let's look at this figure (from [wikipedia](https://en.wikipedia.org/wiki/HSL_and_HSV)):
+
 ![HSV](HSV_color_solid_cylinder_saturation_gray.png)
 
 ____
