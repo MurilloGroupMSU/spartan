@@ -13,5 +13,6 @@ ____
 ___
 
 * [Installation and Quick Start](installation-quick-start.md)
+* [Introduction](introduction.md)
 * [Gallery](gallery.md)
 * [Tutorial](tutorial.md)
