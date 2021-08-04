@@ -19,6 +19,9 @@ Take a look at this picture (which is [from Wikipedia](https://commons.wikimedia
 
 Lasers are capable of producing radiation with a (nearly) single frequency. Imagine having an infinite number of these lasers, each of which produces electromagnetic radiation at a different frequency. By turning on all of the lasers at different levels we an create a distribution of frequencies that corresponds to, for example, the radiation or a tungsten light bulb. One of the confusing parts of color theory is that we often refer to these single frequenies as "color". As we will see, we should try to use another term, such as "physics color" or "single frequency radiation", because what animals actually experience as color is not this meaning of color. 
 
+![lasers](Laser_Pointers.png)
+
+
 The most important take-away from this section is that there electromagnetic waves filling the universe; these waves are independent of any animal experiencing them. The waves fill a continuous spectrum of different frequencies (or, equivalently, wavelengths). 
 
 _____
