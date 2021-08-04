@@ -19,7 +19,7 @@ Take a look at this picture (which is [from Wikipedia](https://commons.wikimedia
 
 Lasers are capable of producing radiation with a (nearly) single frequency. Imagine having an infinite number of these lasers, each of which produces electromagnetic radiation at a different frequency. By turning on all of the lasers at different levels we an create a distribution of frequencies that corresponds to, for example, the radiation or a tungsten light bulb. One of the confusing parts of color theory is that we often refer to these single frequenies as "color". As we will see, we should try to use another term, such as "physics color" or "single frequency radiation", because what animals actually experience as color is not this meaning of color. 
 
-![lasers](Laser_Pointers.png)
+![lasers](Laser_Pointers.jpg)
 
 What this picture of laser pointers illustrates is that there only two things we need to keep track of: the frequency and intensity of the electromagnetic wave. Or, if there are many frequencies, the intensities of each frequency, which is the "spectrum" of the radiation. In physics, this is all there is. Most of what you might have heard about color theory doesn't apply to the physical work; it isn't until animals detect this radiation that color theory gets complicated. Before moving on, take a moment to enjoy the simplicity that physics brings us! 
 
