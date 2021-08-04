@@ -13,6 +13,6 @@ Spartan provides:
 * a basic clean, Tufte like style
 * user customizations and context styles (e.g., screen, publication, talk, poster)
 * palettes designed to tell a range of stories
-* sparkline plots
+* sparklines
 * range frames
-* scatter with rugs and KDEs
+* scatter plots with rugs and KDEs
