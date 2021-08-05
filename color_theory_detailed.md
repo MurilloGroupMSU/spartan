@@ -2,7 +2,7 @@
 ____
 # Advanced Color Theory
 
-Color plays an important role in communicating through visualization. Understanding color is not an easy task in part because of the required background knowledge physics, biologiy and technolgy. Perhaps equally challenging is finding a consistent description of color with enough details to not leave you scatraching your head. This webpage is an attempt to do that. If you are not interested in this level of detail and only wish to know the basics of how spartan uses color, this page might be more useful to you - (click here](color_theory.md).
+Color plays an important role in communicating through visualization. Understanding color is not an easy task in part because of the required background knowledge in physics, biology and technology. Perhaps equally challenging is finding a consistent description of color with enough details to not leave you scatraching your head. This webpage is an attempt to do that. If you are not interested in this level of detail and only wish to know the basics of how spartan uses color, this page might be more useful to you - (click here](color_theory.md).
 
 Let's get started.
 
