@@ -8,7 +8,7 @@ Spartan provides several palettes of several types. While you may wish to choose
 To get a feel for how you might use different palettes, considering writing text on a white background. Let's compare two palettes, beginning with the matplotlib default, first column, and the spartan earth palette (also with a color cycle of length 10):
 
 | default matplotlib | spartan earth |
-|--------------------|---------------|
+|  :----:            |     :----:    |
 | <span style = "color: #1f77b4;"> How easy is this to read?</span> <br> |  <span style = "color: #5b8c63;"> How easy is this to read?</span> <br>| 
 | <span style = "color: #ff7f0e;"> How easy is this to read?</span> <br> |  <span style = "color: #5b8c81;"> How easy is this to read?</span> <br>| 
 | <span style = "color: #2ca02c;"> How easy is this to read?</span> <br> |  <span style = "color: #5b7a8c;"> How easy is this to read?</span> <br>| 
