@@ -1,11 +1,4 @@
 
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-
-<head>
-    
 ____
 # Advanced Color Theory
 
@@ -15,6 +8,7 @@ Let's get started.
 
 It is useful to break color science into three distinct areas: physics, biology and technology. Each of these areas treats color in quite different ways and without understanding each on its own terms, it is challenging to out them all together to understand what you are experiencing as you read this on your screen. Light is composed of colors and we need to understand how nature does that in terms of the laws that govern the universe. But, that light enters your eye and has a very complex interaction with the rods in cones in your retina, and that is before further processing in the topic nerve and brain. Then, there is the technology we have invented to mimic nature using what we know about our visual system.
 
+![green_appears](disappearing-dot.gif)
 ____
 ### Physics
 
