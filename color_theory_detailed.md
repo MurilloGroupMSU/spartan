@@ -32,8 +32,9 @@ Lasers are capable of producing radiation with a (nearly) single frequency. Imag
 
 What this picture of laser pointers illustrates (thanks [Wikipedia](https://en.wikipedia.org/wiki/Laser_pointer)) is that there only two things we need to keep track of: the frequency and intensity of the electromagnetic wave. Or, if there are many frequencies, the intensities of each frequency, which is the "spectrum" of the radiation. In physics, this is all there is. Most of what you might have heard about color theory doesn't apply to the physical work; it isn't until animals detect this radiation that color theory gets complicated. Before moving on, take a moment to enjoy the simplicity that physics brings us! 
 
-
 The most important take-away from this section is that there electromagnetic waves filling the universe; these waves are independent of any animal experiencing them. The waves fill a continuous spectrum of different frequencies (or, equivalently, wavelengths). 
+
+$$\frac{dy}{dt} = xy$$
 
 _____
 ### Biology
