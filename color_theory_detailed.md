@@ -4,13 +4,15 @@ ____
 
 Color plays an important role in communicating through visualization. Understanding color is not an easy task in part because of the required background knowledge in physics, biology and technology. Perhaps equally challenging is finding a consistent description of color with enough details to not leave you scatraching your head. This webpage is an attempt to do that. If you are not interested in this level of detail and only wish to know the basics of how spartan uses color, this page might be more useful to you - [click here](color_theory.md).
 
-Let's get started.
-
 It is useful to break color science into three distinct areas: physics, biology and technology. Each of these areas treats color in quite different ways and without understanding each on its own terms, it is challenging to out them all together to understand what you are experiencing as you read this on your screen. Light is composed of colors and we need to understand how nature does that in terms of the laws that govern the universe. But, that light enters your eye and has a very complex interaction with the rods in cones in your retina, and that is before further processing in the topic nerve and brain. Then, there is the technology we have invented to mimic nature using what we know about our visual system.
 
 Before we get started, let's first provide our first evidence that to understand color we need to understand all three areas. Look at the image below and allow your eye to follow the empty spot that moves around the magenta spots. Your screen is creating light of various colors to give you the sense that there are magenta spots with one being removed in sequence. What enters your eye is electromagentic radiation, the subject of the next section, created by the red-green-blue (RGB) pixels in your screen; you only see magenta. Now, look at the black cross in the center. What do you see now? What you see is a color that your screen is not creating and that is not in the electromagentic waves between your screen and your eyes. This example illustrates the richness of color theory, as we will encounter more examples below. 
 
 ![green_appears](disappearing-dot.gif)
+
+Let's get started.
+
+
 ____
 ### Physics
 
