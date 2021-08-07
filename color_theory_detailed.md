@@ -2,11 +2,11 @@
 ____
 # Advanced Color Theory
 
-Color plays an important role in communicating through visualization. Understanding color is not an easy task in part because of the required background knowledge in physics, biology and technology. Perhaps equally challenging is finding a consistent description of color with enough details to not leave you scratching your head. This webpage is an attempt to do that. If you are not interested in this level of detail and only wish to know the basics of how spartan uses color, this page might be more useful to you - [click here](color_theory.md).
+Color plays an important role in communicating through visualization. Understanding color requires a bit of background knowledge in physics, biology and technology.  This webpage is an attempt to do bring these three area together in a coherent way so that we can understand and use color better. If you are not interested in this level of detail and only wish to know the basics of how spartan uses color, [this page](color_theory.md) might be more useful to you.
 
 It is useful to break color science into three distinct areas: physics, biology and technology. Each of these areas treats color in quite different ways and without understanding each on its own terms, it is challenging to out them all together to understand what you are experiencing as you read this on your screen. Light is composed of colors and we need to understand how nature does that in terms of the laws that govern the universe. But, that light enters your eye and has a very complex interaction with the rods in cones in your retina, and that is before further processing in the topic nerve and brain. Then, there is the technology we have invented to mimic nature using what we know about our visual system.
 
-Before we get started, let's first provide our first evidence that to understand color we need to understand all three areas. Look at the image below and allow your eye to follow the empty spot that moves around the magenta spots. Your screen is creating light of various colors to give you the sense that there are magenta spots with one being removed in sequence. What enters your eye is electromagentic radiation, the subject of the next section, created by the red-green-blue (RGB) pixels in your screen; you only see magenta. Now, look at the black cross in the center. Try to keep your gaze locked on that little cross without moving. What do you see now? What you see is a color that your screen is not creating and that is not in the electromagentic waves between your screen and your eyes. If you keep your eyes still enough, you will eventually see the magenta spots disappear! This example illustrates the richness of color theory, and we will encounter more examples below. 
+Before we get started, let's first provide our first evidence that to understand color we need to understand all three areas. Look at the image below and allow your eye to follow the empty spot that moves around the magenta spots. Your screen is creating light of various colors to give you the sense that there are magenta spots with one being removed in sequence. What enters your eye is electromagentic radiation, the subject of the next section, created by the red-green-blue (RGB) pixels in your screen, covered in the technology section; _you only see magenta_. Now, look at the black dot in the center. Try to keep your gaze locked on that black dot without moving. What do you see now? What you see is a color that your screen is not creating and that is not in the electromagentic waves between your screen and your eyes. If you keep your eyes still enough, you will eventually see the magenta spots disappear! This example illustrates the richness of color theory, and we will encounter more examples below. 
 
 ![green_appears](disappearing-dot.gif)
 
@@ -23,6 +23,8 @@ Take a look at this picture (thanks [Wikipedia](https://commons.wikimedia.org/w/
 
 ![EM](EM_spectrum.png)
 
+What enters your eye is a product of two functions, unless you are staring directly at the radiation source. The first is a function that desribes the spectrum of radiation around you - let's call that E(λ). This could be from sunlight or an incandescent bulb. That spectrum then reflects from an object that preferentially absorbs and reflects at certain values of λ. Let's call this function R(λ). The radiation that then enters your eye is the product R(λ)E(λ). Interestingly, note that we can get the same spectrum to enter our eye if we change the source E(λ) and the reflectance R(λ) in just the right way to keep the product R(λ)E(λ) the same. 
+
 The terminology can get confusing, so let's summarize:
 * light is electromagnetic waves,
 * electromagetic waves are characterized by their frequency _f_,
@@ -38,8 +40,6 @@ Lasers are capable of producing radiation with a (nearly) single frequency. Imag
 What this picture of laser pointers illustrates (thanks [Wikipedia](https://en.wikipedia.org/wiki/Laser_pointer)) is that there only two things we need to keep track of: the frequency and intensity of the electromagnetic wave. Or, if there are many frequencies, the intensities of each frequency, which is the "spectrum" of the radiation. In physics, this is all there is. Most of what you might have heard about color theory doesn't apply to the physical work; it isn't until animals detect this radiation that color theory gets complicated. Before moving on, take a moment to enjoy the simplicity that physics brings us! 
 
 The most important take-away from this section is that there electromagnetic waves filling the universe; these waves are independent of any animal experiencing them. The waves fill a continuous spectrum of different frequencies (or, equivalently, wavelengths). 
-
-$$\frac{dy}{dt} = xy$$
 
 _____
 ### Biology
