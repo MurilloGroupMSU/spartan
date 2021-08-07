@@ -7,16 +7,18 @@ Spartan provides several palettes of several types. While you may wish to choose
 
 To get a feel for how you might use different palettes, considering writing text on a white background. Let's compare two palettes, beginning with the matplotlib default, first column, and the spartan earth palette (also with a color cycle of length 10):
 
-<span style = "color: #1f77b4;"> How easy is this to read?</span> <br>  <span style = "color: #5b8c63;"> How easy is this to read?</span> <br>
-<span style = "color: #ff7f0e;"> How easy is this to read?</span> <br>  <span style = "color: #5b8c81;"> How easy is this to read?</span> <br>
-<span style = "color: #2ca02c;"> How easy is this to read?</span> <br>  <span style = "color: #5b7a8c;"> How easy is this to read?</span> <br>
-<span style = "color: #d62728;"> How easy is this to read?</span> <br>  <span style = "color: #5b5d8c;"> How easy is this to read?</span> <br>
-<span style = "color: #9467bd;"> How easy is this to read?</span> <br>  <span style = "color: #7a5b8c;"> How easy is this to read?</span> <br>
-<span style = "color: #8c564b;"> How easy is this to read?</span> <br>  <span style = "color: #8c5b84;"> How easy is this to read?</span> <br>
-<span style = "color: #e377c2;"> How easy is this to read?</span> <br>  <span style = "color: #8c5b67;"> How easy is this to read?</span> <br>
-<span style = "color: #7f7f7fb;"> How easy is this to read?</span> <br>  <span style = "color: #8c6d5b;"> How easy is this to read?</span> <br>
-<span style = "color: #bcbd22;"> How easy is this to read?</span> <br>  <span style = "color: #8c8b5b;"> How easy is this to read?</span> <br>
-<span style = "color: #17becf;"> How easy is this to read?</span> <br>  <span style = "color: #708c5b;"> How easy is this to read?</span> <br>
+| default matplotlib | spartan earth |
+|____________________|________________|
+| <span style = "color: #1f77b4;"> How easy is this to read?</span> <br> |  <span style = "color: #5b8c63;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #ff7f0e;"> How easy is this to read?</span> <br> |  <span style = "color: #5b8c81;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #2ca02c;"> How easy is this to read?</span> <br> |  <span style = "color: #5b7a8c;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #d62728;"> How easy is this to read?</span> <br> |  <span style = "color: #5b5d8c;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #9467bd;"> How easy is this to read?</span> <br> |  <span style = "color: #7a5b8c;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #8c564b;"> How easy is this to read?</span> <br> |  <span style = "color: #8c5b84;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #e377c2;"> How easy is this to read?</span> <br> |  <span style = "color: #8c5b67;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #7f7f7fb;"> How easy is this to read?</span> <br> |  <span style = "color: #8c6d5b;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #bcbd22;"> How easy is this to read?</span> <br> |  <span style = "color: #8c8b5b;"> How easy is this to read?</span> <br>| 
+| <span style = "color: #17becf;"> How easy is this to read?</span> <br> |  <span style = "color: #708c5b;"> How easy is this to read?</span> <br>| 
 
 
                                    
