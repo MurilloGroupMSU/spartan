@@ -6,7 +6,7 @@ Color plays an important role in communicating through visualization. Understand
 
 Let's get started.
 
-It is useful to break color science into three distinct areas: physics, biology and technology. Each of these areas treats color in quite different ways and without understanding each on its own terms, it is challenging to out them all together to understand what you are experiencing as you read this on your screen. Light is composed of colors and we need to understand how nature does that in terms of the laws that govern the universe. But, that light enters your eye and has a very complex interaction with the rods in cones in your retina, and that is before further processing in the topic nerve and brain. Then, there is the technology we have invented to mimic nature using what we know about our visual system. 
+It is useful to break color science into three distinct areas: physics, biology and technology. Each of these areas treats color in quite different ways and without understanding each on its own terms, it is challenging to out them all together to understand what you are experiencing as you read this on your screen. Light is composed of colors and we need to understand how nature does that in terms of the laws that govern the universe. But, that light enters your eye and has a very complex interaction with the rods in cones in your retina, and that is before further processing in the topic nerve and brain. Then, there is the technology we have invented to mimic nature using what we know about our visual system.
 
 ____
 ### Physics
@@ -37,6 +37,8 @@ The most important take-away from this section is that there electromagnetic wav
 
 _____
 ### Biology
+
+
 
 Let's now think about what happens when an electromagentic wave is sensed by a biological entity. There are numerous ways this can happen; for example, you might feel the heat of the sun on your skin. Many animals have such "light detectors" on their bodies, and early in our evolutionary history that is all we had. As evolution progressed, the detectors became more nuanced to help animals survive under the wide variety of conditions that animals experienced: some animals were strictly noctural, some lived deep in the ocean and some on land during the day. Importantly, animals mostly interact with a quite limited part of the electromagnetic spectrum that surrounds them. Why? At the highest frequencies (shortest wavelgnths) the radiation causes damage to molecules; it would be very difficult for a mechanism to evolve if the waves were destroying the molecules. At the other extreme, radio waves are so low in energy that they would be difficult to detect biologically. Thus, evolution has devloped strategies mainly in a narrow part of the electromagentic spectrum. 
 
