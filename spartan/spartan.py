@@ -15,31 +15,31 @@ def change_defaults(context = "default"):
        * more coming soon...
        '''
 
-        print("Your context is set to:", context)
+    print("Your context is set to:", context)
 
-        if context == "poster":
-            # mpl.rcParams['axes.labelsize'] = 30
-            mpl.rcParams['xtick.labelsize'] = 24
-            mpl.rcParams['ytick.labelsize'] = 24
-            mpl.rcParams['grid.color'] = '#888888'
-            mpl.rcParams['lines.linewidth'] = 3.8
+    if context == "poster":
+        # mpl.rcParams['axes.labelsize'] = 30
+        mpl.rcParams['xtick.labelsize'] = 24
+        mpl.rcParams['ytick.labelsize'] = 24
+        mpl.rcParams['grid.color'] = '#888888'
+        mpl.rcParams['lines.linewidth'] = 3.8
 
-        elif context == "projection":
-            mpl.rcParams['xtick.labelsize'] = 20
-            mpl.rcParams['ytick.labelsize'] = 20
-            mpl.rcParams['lines.linewidth'] = 3.0
+    elif context == "projection":
+        mpl.rcParams['xtick.labelsize'] = 20
+        mpl.rcParams['ytick.labelsize'] = 20
+        mpl.rcParams['lines.linewidth'] = 3.0
 
-        elif context == "monitor":
-            mpl.rcParams['xtick.labelsize'] = 12
-            mpl.rcParams['ytick.labelsize'] = 12
-            mpl.rcParams['lines.linewidth'] = 2.2
+    elif context == "monitor":
+        mpl.rcParams['xtick.labelsize'] = 12
+        mpl.rcParams['ytick.labelsize'] = 12
+        mpl.rcParams['lines.linewidth'] = 2.2
 
-        elif context == "web_meeting":
-            mpl.rcParams['xtick.labelsize'] = 16
-            mpl.rcParams['ytick.labelsize'] = 16
-            mpl.rcParams['lines.linewidth'] = 2.8
+    elif context == "web_meeting":
+        mpl.rcParams['xtick.labelsize'] = 16
+        mpl.rcParams['ytick.labelsize'] = 16
+        mpl.rcParams['lines.linewidth'] = 2.8
 
-        elif context == "publication":
-            mpl.rcParams['xtick.labelsize'] = 14
-            mpl.rcParams['ytick.labelsize'] = 14
-            mpl.rcParams['lines.linewidth'] = 2.0
+    elif context == "publication":
+        mpl.rcParams['xtick.labelsize'] = 14
+        mpl.rcParams['ytick.labelsize'] = 14
+        mpl.rcParams['lines.linewidth'] = 2.0
