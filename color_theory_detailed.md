@@ -62,7 +62,7 @@ We all know that we get yellow from red and green, right? We have all seen the p
 
 Before turning to technology, let's move down the road into the brain and ask: what happens to the signal once the retinal image gets to the cortex. There is a lot that goes on: line recognition, facial recognition and other complex process that convert the photoreceptor respsonses to "things". Let's not go into all of that, but stick with color. One of the striking discoveries of what your brain does with color is called "color constancy". 
 
-![bd](bue_dress.jpg)
+![bd](blue_dress.jpg)
 ____
 ### Technology
 
