@@ -1,10 +1,11 @@
 
+import matplotlib as mpl
 
 def init():
     '''Read style file to set base spartan style.'''
 
     print("Setting default spartan style....")
-    import matplotlib as mpl
+
     import matplotlib.pyplot as plt
     plt.style.use("spartan.mplstyle")
 
