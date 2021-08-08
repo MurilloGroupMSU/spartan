@@ -11,6 +11,7 @@ affiliations:
   - name: Department of Computational Mathematics, Science and Engineering, Michigan State University
     index: 1
 date: 8 August 2021
+bibliography: paper.bib
 ---
 
 
@@ -49,8 +50,6 @@ As communication through visualization becomes ever more important in our data d
 * themes for use cases
 
 
-# References
-
 * https://github.com/ahupp/etframes
 * https://github.com/juanshishido/tufte
 * Hunter, matplotlib
@@ -58,3 +57,6 @@ As communication through visualization becomes ever more important in our data d
 * Tukey, EDA
 * storytelling with data
 * Tufte in R website
+
+
+# References
