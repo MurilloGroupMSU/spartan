@@ -49,6 +49,12 @@ As communication through visualization becomes ever more important in our data d
 * palettes
 * themes for use cases
 
+# Citation Practice
+
+[@astropy]
+[@Pearson:2017]
+[@Binney:2008]
+
 
 * https://github.com/ahupp/etframes
 * https://github.com/juanshishido/tufte
