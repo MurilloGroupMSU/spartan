@@ -4,14 +4,13 @@ tags:
   - Python
   - visualization
 authors:
-	- name: Michael S. Murillo
-	orchid: XYZ-XYZ
-	affiliation: 1
+  - name: Michael S. Murillo
+    orchid: XYZ-XYZ
+    affiliation: 1
 affiliations:
   - name: Department of Computational Mathematics, Science and Engineering, Michigan State University
-  index: 1
+    index: 1
 date: 8 August 2021
-bibliography: spartan.bib
 ---
 
 
