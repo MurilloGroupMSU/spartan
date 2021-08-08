@@ -1,5 +1,4 @@
-
-___
+---
 title: 'spartan: potent visualizations'
 tags:
   - Python
@@ -13,7 +12,7 @@ affiliations:
   index: 1
 date: 8 August 2021
 bibliography: spartan.bib
-___
+---
 
 
 # Summary
