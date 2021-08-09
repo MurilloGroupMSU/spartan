@@ -1,5 +1,5 @@
 ____
-# Color Theory for Spartan
+# Color theory for spartan
 ____
 
 This page summarizes some of the important aspects of color theory that are used to create color palettes in spartan. Much of this information can be found in other parts of the documentation, but this discussion is for the color nerds, those people who wish to dive a little bit more deeply into colors. The focus here on just those aspects of color theory important for understanding what spartan does; if you are interested in a more detailed and general discussion of color theory, [click here](color_theory_detailed). 
