@@ -48,3 +48,6 @@ ____
 There are many ways to create palettes and many types of palettes you will want to create. 
 
 Consider a situation in which you know the first and last color in the color cycle and the intermediate colors should transition smoothly between them. An example use case is having a single color that transitions from light to dark to put increasing emphasis on subsequent lines or points. Similarly, we may transition from gray to red. Another example is when there is a physical meaning to the color, such as a transition from hot to cold. 
+
+
+[Go back.](index.md)
