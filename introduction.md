@@ -110,3 +110,5 @@ import spartan as sp
 
 Once we have taken control of the ink levels in our plots, we can focus on the data. The story your data conveys will highly depend on how you use color. 
 
+[Go back.](index.md)
+
