@@ -1,8 +1,8 @@
 
-
-[like this](https://seaborn.pydata.org/introduction.html)
-
 # Introduction to spartan
+
+
+The first few sections below describe spartan capabilities provided through matplotlib customizations. This means that you are able to use matplotlib just as you always have once youe have used spartan's customizations. When we get to the sections on plots, spartan provides new plots types not part of matplotlib.
 
 
 ## Basic style
@@ -39,6 +39,7 @@ for c in range(8):
 ```
 
 Let's examine what changes spartan brings at this level. Following the philosophy of emphasizing the data and hiding the style, note that there are no spines (the box that surrounds the plot - see above), the fonts are not large, the supporting structure is some level of grey and there is a dim grid that you only notice if you need it. The data is the focus.
+
 
 ## Contexts
 
