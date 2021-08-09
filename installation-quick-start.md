@@ -31,3 +31,6 @@ Next, you may wish to customize your palette so that the color cycle of your plo
 sp.set_style("MAC")
 ```
 Suppose you wish to ....
+
+[Go back.](index.md)
+
