@@ -2,7 +2,7 @@
 # Introduction to spartan
 
 
-The first few sections below describe spartan capabilities provided through matplotlib customizations. This means that you are able to use matplotlib just as you always have once youe have used spartan's customizations. When we get to the sections on plots, spartan provides new plots types not part of matplotlib.
+The first few sections below describe spartan capabilities provided through matplotlib customizations. This means that you are able to use matplotlib commands just as you always have, but with spartan's customizations. In the later sections on plots, spartan provides new plot types not part of matplotlib.
 
 
 ## Basic style
