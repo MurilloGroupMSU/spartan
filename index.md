@@ -1,11 +1,11 @@
 
 # Welcome
 
-Spartan is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing plot types based on good visualization practices.
+Spartan is a matplotlib based Python data visualization library that provides a high-level interface for drawing plot types based on good visualization practices.
 
-If you wish to learn of the motivations behind spartan, please click here. Follow the links below to get started.
+Follow the links below to get started.
 
-To see the code or report a bug, please visit the GitHub repository. General support questions are most at home on stackoverflow or discourse, which have dedicated channels for spartan.
+To see the code or report a bug, please visit the GitHub repository.
 
 
 ____
