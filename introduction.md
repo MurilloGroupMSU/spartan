@@ -20,7 +20,7 @@ for c in range(8):
   plt.plot(x, y)
 ```
 
-Next, let's compare with `spartan`:
+Next, let's compare with spartan:
 
 ```python
 import numpy as np
@@ -37,8 +37,21 @@ for c in range(8):
   y = np.sin(x*np.sqrt(c))
   plt.plot(x, y)
 ```
-
 Let's examine what changes spartan brings at this level. Following the philosophy of emphasizing the data and hiding the style, note that there are no spines (the box that surrounds the plot - see above), the fonts are not large, the supporting structure is some level of grey and there is a dim grid that you only notice if you need it. The data is the focus.
+
+
+## Change
+
+If you like the basic spartan style, you can now use matplotlib as you usually do. But, there is a lot more! The simplest modifications in spartan come from using its `change` command. These are changes to the style that allow you to customize spartan for different use cases. Some of these use cases are described below.
+
+If at any time you need to return to making plots in the default matplotlib style, you can use:
+```python
+sp.change(reset = 'mpl_default')
+```
+Similarly, if you have made changes (see below) and you wish to return to the default spartan style, you can use:
+```python
+sp.change(reset = 'spartan_default')
+```
 
 
 ## Contexts
