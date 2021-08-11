@@ -3,8 +3,16 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from cycler import cycler
 
+plt.style.use('default') # force matplotlib default for consistency in Jupyter
+
 SPARTAN_PALETTES = dict(
 
+                    base4 = ['#18453a', '#cc5a29', '#004372', '#6e005f'],
+                    base6 = ['#18453a', '#cc5a29', '#00465e', '#ae1949', '#003b7c', '#6e005f'],
+                    base8 = ['#18453a', '#cc5a29', '#004654' ,'#bc2e3f', '#004372', '#9c0252', '#23347c', '#6e005f'],
+                    base10 = ['#18453a','#cc5a29','#00474d', '#c2393a', '#004567', '#ae1949', '#003f7a', '#920056',
+                              '#382f79', '#6e005f'],
+    
                     soft4 = ["#69bf77", "#6986bf", "#bf69b1", "#bfa369"],
                     soft6 = ["#69bf77", "#69b1bf", "#7769bf", "#bf69b1", "#bf7869", "#b1bf69"],
                     soft8 = ["#69bf77", "#69bfb8", "#6986bf", "#8d69bf", "#bf69b1", "#bf6970", "#bfa369", "#9bbf69"],
@@ -131,13 +139,13 @@ SPARTAN_PALETTES = dict(
 )
 
 
-def init():
+def start():
     
     print("Setting default spartan style....")
     plt.style.use("../spartan.mplstyle")
 
 
-def change(grid = "dont_change", labels = "dont_change", palette = "dont_change", context = "dont_change"):
+def change(grid = "dont_change", labels = "dont_change", palette = "dont_change", context = "dont_change", reset = "dont_change"):
     '''Allow the user to customize the base style, including:
        * grids,
        * labels,
@@ -145,10 +153,21 @@ def change(grid = "dont_change", labels = "dont_change", palette = "dont_change"
        * contexts,
        * more coming soon...
        '''
+
+    
+    # RESET
+    
+    if reset != "dont_change":
+        
+        # user wants matplotlib defaults
+        if reset == "mpl_default":
+            plt.style.use('default')
+    
+        elif reset == "spartan_default":
+            plt.style.use("../spartan.mplstyle")
+    
     
     # GRIDS
-    
-    print("Your grid is now set to:", grid)
     
     if grid != "dont_change":
         
@@ -173,8 +192,6 @@ def change(grid = "dont_change", labels = "dont_change", palette = "dont_change"
             
     # LABELS
     
-    print("Your labels are now set to:", labels)
-    
     if labels != "dont_change":
         
         if labels == "darker":
@@ -188,10 +205,8 @@ def change(grid = "dont_change", labels = "dont_change", palette = "dont_change"
             
     # PALETTES
     
-    print("Your palette is set to:", palette)
-    
     if palette != "dont_change":
-        
+            
         palette_keys = list(SPARTAN_PALETTES.keys())
         
         if palette in palette_keys:
@@ -204,8 +219,6 @@ def change(grid = "dont_change", labels = "dont_change", palette = "dont_change"
             
     
     # CONTEXTS
-    
-    print("Your context is now set to:", context)
 
     if context != "dont_change":
         if context == "poster":
