@@ -19,9 +19,10 @@ With spartan installed, you can import it with
 import spartan as sp
 ```
 Although spartan has been loaded, you can continue to make default matplotlib plots until you are ready to swtich; to do that, use:
-```
+```python
 sp.start()
-```This may be all that you need! For example, here is a simple plot done in matplotlib defaults and using only the import statement above.
+```
+This may be all that you need! For example, here is a simple plot done in matplotlib defaults and using only the import statement above.
 
 * add two plots here
 
