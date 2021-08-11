@@ -56,7 +56,7 @@ sp.change(reset = 'spartan_default')
 
 ## Contexts
 
-Perhaps for your everyday work, that is all you need. For scientific work however, you will find your self in several settings:
+Perhaps for your everyday work, the default style is all you need. For scientific work however, you will find yourself in several settings:
 
 * working long hours in front of the monitor that is sitting motionless with a high resolution a fixed distance from your eyes,
 * you are giving a Zoom talk in which the quality of transmission is less certain and the viewer needs to grasp the plots more quickly,
@@ -68,27 +68,27 @@ Let's re-examine the plots above in each of these contexts.
 
 #### screen
 ```python
-import spartan as sp
+sp.change(context = "screen")
 ```
 
 #### online presentation
 ```python
-import spartan as sp
+sp.change(context = "presentation")
 ```
 
 #### in person presentation
 ```python
-import spartan as sp
+sp.change(context = "in_person")
 ```
 
 #### poster
 ```python
-import spartan as sp
+sp.change(context = "poster")
 ```
 
 #### publication
 ```python
-import spartan as sp
+sp.change(context = "publication")
 ```
 
 
