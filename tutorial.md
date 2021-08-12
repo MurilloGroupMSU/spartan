@@ -42,7 +42,12 @@ It is worth thinking about your narrative and whether or not a well chosen palet
 
 Many of the palettes within spartan are constructed so that you can choose a repeat cycle. For example, suppose you want to use the MAC palette, which transitions from a green to an orange with no intermediate colors, and you have 6 lines to draw. Full use of the palette would require the repeat cycle to have a length of 6 so that the first line is full green and the final line is full orange. Spartan provides for these cases with 4 repeat cycles for each palette in lengths of 4, 6, 8 and 10. If you don't have a specific repeat cycle, it is still best to choose the palette closest to the number of lines in your plot: the smaller the repeat cycle, the larger the difference in the color of adjacent lines. 
 
-Let's look at some examples of what spartan offers....
+Let's look at some examples of what spartan offers; the commands for exploring palettes are:
+* `list_palettes`: see which palettes are avialabe by name,
+* `show_palette`: see an example plot with the palette of our choice,
+* `choose_palette`: change to another spartan palette,
+* `set_palette`: change to your own palette,
+* `get_palette`: get the hex values for any spartan palette.
 
 More details on spartan's palettes can be found [here](palettes.md). 
 
