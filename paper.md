@@ -23,7 +23,7 @@ Good visualization practices allow us to communicate powerful ideas quickly and 
 
 # Statement of need
 
-Communicating through visualization is central to the scientific process. The production of scientific graphs is now guided by rules and heuristics that increase the efficiency of communication while mitigating miscommunication. Tufte [@tufte], and many others [@wilkinson,@cole,@parish], have documented rules that increase our ability to communicate well. 
+Communicating through visualization is central to the scientific process. The production of scientific graphs is now guided by rules and heuristics that increase the efficiency of communication while mitigating miscommunication. Tufte [@Tufte], and many others [@Wilkinson],[@Knaflic1,@Knaflic2], have documented rules that increase our ability to communicate well. 
 
 
 Some of the most important rules are:
