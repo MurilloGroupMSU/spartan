@@ -5,7 +5,7 @@ tags:
   - visualization
 authors:
   - name: Michael S. Murillo
-    orchid: XYZ-XYZ
+    orchid: 0000-0002-4365-929X
     affiliation: 1
 affiliations:
   - name: Department of Computational Mathematics, Science and Engineering, Michigan State University
@@ -17,7 +17,7 @@ bibliography: paper.bib
 
 # Summary
 
-Good visualization practices allow us to communicate powerful ideas quickly and efficiently. Spartan is a Python library, built on matplotlib, for creating visualizations based on modern practices such as those of Tufte and others. In its simplest use, Spartan provides for a parsimonious style that highlights the data while minimizing the design. Context variations for talks, posters, publications and posters are included. Spartan provides new color palettes that deepen diverse narratives. Users can build custom color palettes in lab space (for perceptual uniformity) or in rgb space. Plotting tools are provided for 1D plots, range frames, scatter plots with rug and KDE accents, sparklines, parallel plots and a new mixed linear-log plot. All tools are built as close to the matplotlib API as possible for a seamless integration into current workflows.
+Spartan is a Python library, built on matplotlib, for creating visualizations based on modern practices such as those of Tufte and others. In its simplest use, Spartan provides for a parsimonious style that highlights the data while minimizing the design. Context variations for talks, posters, publications and posters are provided. Spartan provides new color palettes that deepen diverse narratives. Users can build custom color palettes in lab space (for perceptual uniformity) or in rgb space. Plotting tools are provided for 1D plots, range frames, scatter plots with rug and KDE accents, sparklines, parallel plots and a new mixed linear-log plot. All tools are built as close to the matplotlib API as possible for a seamless integration into current workflows.
 
 
 
@@ -41,7 +41,7 @@ All of these issues increase in importance in the "Big Data" age. Python, throug
 
 # Example
 
-* standard mpl versus spartan for line plot with gradient palette
+* mixolinean
 
 
 
@@ -62,15 +62,7 @@ All of these issues increase in importance in the "Big Data" age. Python, throug
 
 # Citation Practice
 
-
-
 * https://github.com/ahupp/etframes
 * https://github.com/juanshishido/tufte
-* Hunter, matplotlib
-* Waskom, seaborn
-* Tukey, EDA
-* storytelling with data
-* Tufte in R website
-
 
 # References
