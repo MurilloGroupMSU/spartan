@@ -31,7 +31,7 @@ Some of the most important rules are:
 * allow the narrative/conclusion to guide color choices,
 * choose graph types that don't mislead,
 
-All of these issues increase in importance in the "Big Data" age. 
+All of these issues increase in importance in the "Big Data" age. Python, through its matplotlib library [@Hunter], provides a powerful tool set for building custom visualizations. However, the average user may not be knowledgeable or have the time to code at a lower level that exposes matplotlib's most powerful capablities. 
 
 
 
@@ -63,9 +63,6 @@ Although new standards of visual communication have appeared, many of the standa
 
 # Citation Practice
 
-[@astropy]
-[@Pearson:2017]
-[@Binney:2008]
 
 
 * https://github.com/ahupp/etframes
