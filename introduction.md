@@ -129,7 +129,7 @@ sp.list_palettes()
 sp.show_palette()
 sp.set_palette("vivid6")
 ```
-Until you change the palette again, all subsequent plots are in the `vivid6` style. Learn more about how to control palettes in the tutorial page. 
+Until you change the palette again, all subsequent plots are in the `vivid6` style. Learn more about how to control palettes in the [tutorial](tutorial.md) page. 
 
 
 [Go back.](index.md)
