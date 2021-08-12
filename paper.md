@@ -23,7 +23,19 @@ Good visualization practices allow us to communicate powerful ideas quickly and 
 
 # Statement of need
 
-As communication through visualization becomes ever more important in our data driven age, it is of increasing importance that we communicate clearly, efficiently and honestly [Tukey, Tufte, Cole]. Although new standards of visual communication have appeared, many of the standard libraries lag these best practices. In Python, the standard plotting library matplotlib is based on older practices inherited in part from Matlab. Newer libraries, such as seaborn for data science [cite] and interactive packages, such as Altair [cite] and Holoviews [cite], have filled some of the gaps. However, none of these libraries directly incorporate many of the best practices into the base Matplotlib workflow. For example, the sparkline and range frame popularized by Tufte [cite] can be made in matplotlib with effort but is not part of the standard library. 
+Communicating through visualization is central to the scientific process. The production of scientific graphs is now guided by rules and heuristics that increase the efficiency of communication while mitigating miscommunication. Tufte [@tufte], and many others [@wilkinson,@cole,@parish], have documented rules that increase our ability to communicate well. 
+
+
+Some of the most important rules are:
+* reduce non-data ink,
+* allow the narrative/conclusion to guide color choices,
+* choose graph types that don't mislead,
+
+All of these issues increase in importance in the "Big Data" age. 
+
+
+
+Although new standards of visual communication have appeared, many of the standard libraries lag these best practices. In Python, the standard plotting library matplotlib is based on older practices inherited in part from Matlab. Newer libraries, such as seaborn for data science [cite] and interactive packages, such as Altair [cite] and Holoviews [cite], have filled some of the gaps. However, none of these libraries directly incorporate many of the best practices into the base Matplotlib workflow. For example, the sparkline and range frame popularized by Tufte [cite] can be made in matplotlib with effort but is not part of the standard library. 
 
 
 
