@@ -121,7 +121,16 @@ import spartan as sp
 
 ## Exploring palettes
 
-Once we have taken control of the ink levels in our plots, we can focus on the data. The story your data conveys will highly depend on how you use color. 
+Once we have taken control of the ink levels in our plots, we can focus on the data. The story your data conveys will highly depend on how you use color. Color should highlight certain lines or points, enhance the scientific message you are conveying, be permitted for their final use (e.g., in a journal), be viewable in black and white, and so on. Think carefullly about which colors best aid in telling your narrative before choosing a palette. 
+
+There are numerous palettes built into spartan, all of which can be listed and seen using the commands:
+```python
+sp.list_palettes()
+sp.show_palette()
+sp.set_palette("vivid6")
+```
+Until you change the palette again, all subsequent plots are in the `vivid6` style. Learn more about how to control palettes in the tutorial page. 
+
 
 [Go back.](index.md)
 
