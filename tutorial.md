@@ -45,6 +45,7 @@ Many of the palettes within spartan are constructed so that you can choose a rep
 Let's look at some examples of what spartan offers; the commands for exploring palettes are:
 * `list_palettes`: see which palettes are avialabe by name,
 * `show_palette`: see an example plot with the palette of our choice,
+* `show_all_palettes`: view the colors in all spartan palettes at once,
 * `choose_palette`: change to another spartan palette,
 * `set_palette`: change to your own palette,
 * `get_palette`: get the hex values for any spartan palette.
