@@ -1,17 +1,28 @@
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
 from cycler import cycler
+import numpy as np
 
 plt.style.use('default') # force matplotlib default for consistency in Jupyter
 
+
+#############################
+  #### Palette Section ####
+#############################
+
 SPARTAN_PALETTES = dict(
 
-                    base4 = ['#18453a', '#cc5a29', '#004372', '#6e005f'],
-                    base6 = ['#18453a', '#cc5a29', '#00465e', '#ae1949', '#003b7c', '#6e005f'],
-                    base8 = ['#18453a', '#cc5a29', '#004654' ,'#bc2e3f', '#004372', '#9c0252', '#23347c', '#6e005f'],
-                    base10 = ['#18453a','#cc5a29','#00474d', '#c2393a', '#004567', '#ae1949', '#003f7a', '#920056',
-                              '#382f79', '#6e005f'],
+                    # current default palette
+    
+                    base4 = ['#0ab34f', '#bf009f', '#8e92c5', '#cc7014'],
+                    base6 = ['#0ab34f', '#bf009f', '#00abc3', '#8e92c5', '#cc7014', '#e32851'],
+                    base8 = ['#0ab34f', '#bf009f', '#00abc3', '#8e92c5', '#b47fb1', '#e10068', '#cc7014', '#009b85'],
+                    base10 = ['#0ab34f', '#bf009f', '#00abc3', '#8e92c5', '#b47fb1', '#cc7014', '#e0443b', '#e0006a',                
+                               '#009b85', '#a68600'],
+    
+                    # miscellaneous palettes
     
                     soft4 = ["#69bf77", "#6986bf", "#bf69b1", "#bfa369"],
                     soft6 = ["#69bf77", "#69b1bf", "#7769bf", "#bf69b1", "#bf7869", "#b1bf69"],
@@ -78,6 +89,11 @@ SPARTAN_PALETTES = dict(
                     clay8 = ["#cc9600", "#db7c1e", "#e16237", "#de494f", "#d23767", "#bb317c", "#9b358e", "#703d99"],
                     clay10 = ["#cc9600", "#d88218", "#df6e2c", "#e1593f", "#dd4752", "#d43964", "#c43175", "#ae3285",
                               "#923791", "#703d99"],
+    
+                    hot2cold4 = ["#b40000", "#b4b400", "#00b400", "#0000b4"],
+                    hot2cold6 = ["#b40000", "#b47800", "#78b400", "#00b400", "#0082cf", "#0000b4"],
+                    hot2cold8 = ["#b40000", "#b45a00", "#b4b400", "#5ab400", "#00b400", "#009698", "#006ced", "#0000b4"],
+                    hot2cold10 = ["#b40000", "#b44800", "#b49000", "#90b400", "#48b400", "#00b400", "#009f79", "#0082cf", "#005eef", "#0000b4"],
 
 
                     # gray based palettes
@@ -140,10 +156,94 @@ SPARTAN_PALETTES = dict(
 
 
 def start():
+    '''Switch to spartan style.'''
     
     print("Setting default spartan style....")
     plt.style.use("../spartan.mplstyle")
 
+
+def list_palettes():
+    '''Show user the names of the spartan palettes.'''
+    
+    for i, name in enumerate(SPARTAN_PALETTES.keys()):
+        print(name, " ", end = " ")
+        if (i+1) % 4 == 0:
+            print("")
+
+            
+def show_palette(palette = "no_name"):
+    
+    if palette != "no_name":
+        
+        x = np.linspace(0,12,100)
+        
+        colors = SPARTAN_PALETTES[palette]
+        for i, c in enumerate(colors):
+            scale = (i+1)**0.3
+            y = np.sin(x*scale)/scale
+            plt.plot(x, y, color = c, label = i+1)
+        plt.legend()
+
+        
+def show_all_palettes():
+
+    f, a = plt.subplots(figsize = (18,18))
+
+    a.spines['right'].set_visible(False)
+    a.spines['top'].set_visible(False)
+    a.spines['left'].set_visible(False)
+    a.spines['bottom'].set_visible(False)
+    a.set_yticklabels([])
+    a.set_xticklabels([])
+    a.set_yticks([])
+    a.set_xticks([])
+    a.set_xlim(0,1)
+    a.set_ylim(0,1)
+
+    palette_names = SPARTAN_PALETTES.keys()
+    number_of_palettes = len(palette_names)
+    print("There are currently {} palettes in spartan.".format(number_of_palettes))
+    for i, name in enumerate(palette_names):         
+
+        palette = SPARTAN_PALETTES[name]
+        a.set_prop_cycle('color', palette)
+
+        for j in range(len(palette)):
+            a.text(0.0, i/number_of_palettes, name, size = 12)
+            a.add_patch(Rectangle((0.16 + j/15,i/number_of_palettes), .08, .015, facecolor = palette[j]))
+        
+        
+def choose_palette(new_palette = "none"):
+    '''The user provides the name of a spartan palette as a string.'''
+    
+    if new_palette != "none":
+        mpl.rcParams['axes.prop_cycle'] = cycler('color',  SPARTAN_PALETTES[new_palette])
+        
+
+def set_palette(new_palette = []):
+    '''The user provides a list of colors in strings-of-hex form.'''
+    
+    if new_palette != []:
+        mpl.rcParams['axes.prop_cycle'] = cycler('color',  new_palette)
+
+
+def get_palette(palette_name = "no_name"):
+    '''Allow user to get the list of hex colors for any spartan palette,
+    using the string name of the palette.'''
+    
+    if palette_name != "no_name":
+        return SPARTAN_PALETTES[palette_name]
+        
+def compare_palettes():
+    pass
+
+def make_palette():
+    pass
+
+
+###########################
+  #### Style Section ####
+###########################
 
 def change(grid = "dont_change", labels = "dont_change", palette = "dont_change", context = "dont_change", reset = "dont_change"):
     '''Allow the user to customize the base style, including:
@@ -154,7 +254,6 @@ def change(grid = "dont_change", labels = "dont_change", palette = "dont_change"
        * more coming soon...
        '''
 
-    
     # RESET
     
     if reset != "dont_change":
