@@ -16,5 +16,10 @@ What if we don't care about being strictly linear around zero and we don't want 
 
 ### Symlog
 
+The symlog capability mirrors what is currently in matplotlib, with three goals:
+* provide the spartan style to this plot type,
+* document the transformation that it uses, which has been the [source of some confusion](https://stackoverflow.com/questions/39988048/what-is-the-origin-of-matplotlibs-symlog-a-k-a-symmetrical-log-scale),
+* and, allow this algorithm to be easily compared with the other two option. 
+
 ### Cinch
 
