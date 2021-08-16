@@ -12,7 +12,12 @@ Before we discuss the three plot types, let's first understand the mathematics b
 
 What if we don't care about being strictly linear around zero and we don't want the discontinuity that arise at the linear-to-log boundary? Let's first review how normal log scales work. 
 
+_T(x) = log(x)_
+
 ### Mixolinean Log
+
+_T(x) = x,      |x| < C_
+_T(x) = log(x), |x| > C_
 
 ### Symlog
 
@@ -23,3 +28,4 @@ The symlog capability mirrors what is currently in matplotlib, with three goals:
 
 ### Cinch
 
+_T(x) = sinh^{-1}(x)_
