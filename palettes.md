@@ -35,24 +35,30 @@ sp.show_palette("MAC6")
 This will generate this plot:
 
 *PLOT HERE*
+Many more examples will be discussed below.
 
 You can change to a different palette with:
 ```python
-sp.change_palette("vivid8")
+sp.choose_palette("vivid8")
 ```
 It is easy to mix and match palettes in spartan. First, request the palette:
 ```python
 list_of_colors = sp.get_palette("blue_graydient8")
 print(list_of_colors)
 ```
-You can now drop some of the values, combine them with other palettes, reverse the order,
+You can now drop some of the values, and some new values, combine them with other palettes, reverse the order,
 ```python
 reversed_blue = list_of_colors[::-1]
 ```
 and so on. Once you have your new list of strings of hex values, reset the palette with
 ```python
-sp.xyz()
+sp.set_palette("reversed_blue")
 ```
+If you wish to see all of the colors next to each, use:
+```python
+sp.show_all_palettes()
+```
+
 
 ____
 ### Varying Hue
