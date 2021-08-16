@@ -10,27 +10,34 @@ A problem arises, however, when the data literally goes through zero; you may li
 
 Before we discuss the three plot types, let's first understand the mathematics behind the transformations used. The first plot type mixes linear with logarithmic in a very literal way, and this is referred to as the mixolinean log plot (mixo is Greek for "mixed"). A portion of the axis, which can be either or both of the axes, is strictly linear. This allows the data to be represented without distortion for small values near zero, while still retaining the larger values on a log scale outside of that user-defined region. Why would you use this? As an example, consider how two atoms interact - we often assume the energy of that interaction as a function of the separation _r_ between the atoms goes like _1/r^12  - 1/r^6_. This function tends to infinity as _r_ becomes very small, but has interesting and import structure near _r=1_. We could like to see that structure without simply chopping off the larger values we care a bit less about. The mixolean log does not need a mathematical transformation because the rule is very simple: linear in this range, and log outside of that. 
 
-What if we don't care about being strictly linear around zero and we don't want the discontinuity that arise at the linear-to-log boundary? Let's first review how normal log scales work. Although log scales can be implemented in _x_, _y_ or both, for simplicity only _x_ will be discussed; spartan allows for all three cases.
+What if we don't care about being strictly linear around zero and we don't want the discontinuity that arise at the linear-to-log boundary? Let's first review how normal log scales work. Although log scales can be implemented in _x_, _y_ or both, for simplicity only _x_ will be discussed; spartan allows for all three cases. Given a set of _x_ coordinates, we define a transformation _T(x)_ to new coordinates by.
 
 _T(x) = log(x),  x > 0_
 
+The values _T(x)_ will be compressed (e.g., _x = 100_, gives _T(100) = 2_); but, zero or negative values of _x_ are not permissible. 
+
+
 ### Mixolinean Log
+
+The mixolinean log mixes linear and log such that each is perfectly perserved in its domain. The user defines a domain $-C < x < C$ for which the transformation is linear (that is, the scale is unchanged) with the remainder of the domain being a log scale. Using the absolute value and sign function we obtain a form that allows for any value or sign of _x_:
 
 _T(x) = x,      |x| < C_
 
 _T(x) = sign(x)*log(|x|), |x| > C_
+
+The use case for mixolinean is when we need a faithful representation of our data in $[-C, C]$, but would like to see how that data connects with data at much larger values that need to be compressed. Note that this transformation is discontinuous at the boundary _|x| = C_, which does not represent a problem provided the observer understands the plot type. 
 
 ### Symlog
 
 The symlog capability mirrors what is currently in matplotlib, with three goals:
 * provide the spartan style to this plot type,
 * document the transformation that it uses, which has been the [source of some confusion](https://stackoverflow.com/questions/39988048/what-is-the-origin-of-matplotlibs-symlog-a-k-a-symmetrical-log-scale),
-* and, allow this algorithm to be easily compared with the other two option. 
+* and, allow this algorithm to be easily compared with the other two options. 
 
-_T(x) = sign(x)*log(1 + x)_
+_T(x) = sign(x)*log(1 + |x|)_
 
 ### Cinch
 
-A well-known function that is linear for small _x_ and logarithmic at large _x_ is the inverse hyperbolic sine function, which satisfies _sinh^{-1}(x) = ln(x + sqrt(1 + x^2))_.
+A well-known function that is linear for small _x_ and logarithmic at large _x_ is the inverse hyperbolic sine function, which satisfies _sinh^{-1}(x) = ln(x + sqrt(1 + x^2))_ and is valid for all _x_. This transformation is flatter in the linear region and has the simple form:
 
 _T(x) = sinh^{-1}(x)_
