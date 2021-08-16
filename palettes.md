@@ -16,15 +16,30 @@ Spartan provides several palettes of several types. While you may wish to choose
 | <span style = "color: #bcbd22;"> How easy is this to read?</span> <br> |  <span style = "color: #8c8b5b;"> How easy is this to read?</span> <br>| 
 | <span style = "color: #17becf;"> How easy is this to read?</span> <br> |  <span style = "color: #708c5b;"> How easy is this to read?</span> <br>| 
 
-To get started with spartan palettes
-
-The spartan palettes are grouped in the broad categories:
+There are many palettes built into spartan, and they are shown in detail below. Each spartan palette is grouped by purpose into the broad categories:
 * mixed color cycle for comparing data that has equal weight to the narrative,
 * single hue with a gradient in saturation or brightness indicating the same quantity with another variable changing (e.g., time or height), 
 * an initial color for the most important data, followed by gray to signify equal background data,
 * an initial color for the most important data, followed by ever lighter grays to indicate decreasing importance,
 * color gradients that indicate something physically relevant (e.g., hot to cold).
-                              
+
+Your first step is to list the palettes spartan has in the current version you have, which can be done with
+```python
+import spartan as sp
+sp.list_palettes()
+```
+The default palette is `base6`. You can see what a palette looks like in action with:
+```python
+sp.show_palette("MAC6")
+```
+This will generate this plot:
+
+*PLOT HERE*
+
+You can change to a different palette with:
+```python
+sp.change_palette("vivid8")
+```
 
 
 ____
