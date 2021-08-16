@@ -1,11 +1,7 @@
 ____
 ## Palettes
 
-Spartan provides several palettes of several types. While you may wish to choose a palette for purely aesthtic reasons, some of spartan's palettes were designed to follow good visualization practices. Choose one because you like it, or choose one because it best matches your communication goal.
-
-![](palettes.png)
-
-To get a feel for how you might use different palettes, considering writing text on a white background. Let's compare two palettes, beginning with the matplotlib default, first column, and the spartan earth palette (also with a color cycle of length 10):
+Spartan provides several palettes of several types. While you may wish to choose a palette for purely aesthtic reasons, some of spartan's palettes were designed to follow good visualization practices. Choose one because you like it, or choose one because it best matches your communication goal. To get a feel for how you might use different palettes, considering writing text on a white background. Let's compare two palettes, beginning with the matplotlib default, first column, and the spartan earth palette (also with a color cycle of length 10):
 
 | default matplotlib | spartan earth |
 |  :----:            |     :----:    |
@@ -20,17 +16,15 @@ To get a feel for how you might use different palettes, considering writing text
 | <span style = "color: #bcbd22;"> How easy is this to read?</span> <br> |  <span style = "color: #8c8b5b;"> How easy is this to read?</span> <br>| 
 | <span style = "color: #17becf;"> How easy is this to read?</span> <br> |  <span style = "color: #708c5b;"> How easy is this to read?</span> <br>| 
 
+To get started with spartan palettes
 
-                                   
-
-
-
-
-
-
-
-
-
+The spartan palettes are grouped in the broad categories:
+* mixed color cycle for comparing data that has equal weight to the narrative,
+* single hue with a gradient in saturation or brightness indicating the same quantity with another variable changing (e.g., time or height), 
+* an initial color for the most important data, followed by gray to signify equal background data,
+* an initial color for the most important data, followed by ever lighter grays to indicate decreasing importance,
+* color gradients that indicate something physically relevant (e.g., hot to cold).
+                              
 
 
 ____
