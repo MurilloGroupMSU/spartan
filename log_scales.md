@@ -8,16 +8,17 @@ It is often said that the problem with log scales is that you can't use them wit
 
 A problem arises, however, when the data literally goes through zero; you may literally have values of zero in your data. To handle this situation, we can make the axis linear very close to zero and logarithmic everywhere else. In fact, this capability already exists in matplotlib through its `symlog` capability. The challenge is only that we need to develop and understand the nonlinear transformation, and this is not unique; spartan provides three options, each of which is documented here. 
 
-Before we discuss the three plot types, let's first understand the mathematics behind the transformations used. The first plot type mixes linear with logarithmic in a very literal way, and this is referred to as the mixolinean log plot (mixo is Greek for "mixed"). A portion of the axis, which can be either or both of the axes, is strictly linear. This allows the data to be represented without distortion for small values near zero, while still retaining the larger values on a log scale outside of that user-defined region. Why would you use this? As an example, consider how two atoms interact - we often assume the energy of that interaction as a function of the separation _r_ between the atoms goes like 1/r^12  - 1/r^6. This function tends to infinity as _r_ becomes very small, but has interesting and import structure near _r=1_. We could like to see that structure without simply chopping off the larger values we care a bit less about. The mixolean log does not need a mathematical transformation because the rule is very simple: linear in this range, and log outside of that. 
+Before we discuss the three plot types, let's first understand the mathematics behind the transformations used. The first plot type mixes linear with logarithmic in a very literal way, and this is referred to as the mixolinean log plot (mixo is Greek for "mixed"). A portion of the axis, which can be either or both of the axes, is strictly linear. This allows the data to be represented without distortion for small values near zero, while still retaining the larger values on a log scale outside of that user-defined region. Why would you use this? As an example, consider how two atoms interact - we often assume the energy of that interaction as a function of the separation _r_ between the atoms goes like _1/r^12  - 1/r^6_. This function tends to infinity as _r_ becomes very small, but has interesting and import structure near _r=1_. We could like to see that structure without simply chopping off the larger values we care a bit less about. The mixolean log does not need a mathematical transformation because the rule is very simple: linear in this range, and log outside of that. 
 
-What if we don't care about being strictly linear around zero and we don't want the discontinuity that arise at the linear-to-log boundary? Let's first review how normal log scales work. 
+What if we don't care about being strictly linear around zero and we don't want the discontinuity that arise at the linear-to-log boundary? Let's first review how normal log scales work. Although log scales can be implemented in _x_, _y_ or both, for simplicity only _x_ will be discussed; spartan allows for all three cases.
 
-_T(x) = log(x)_
+_T(x) = log(x),  x > 0_
 
 ### Mixolinean Log
 
 _T(x) = x,      |x| < C_
-_T(x) = log(x), |x| > C_
+
+_T(x) = sign(x)*log(|x|), |x| > C_
 
 ### Symlog
 
@@ -26,6 +27,10 @@ The symlog capability mirrors what is currently in matplotlib, with three goals:
 * document the transformation that it uses, which has been the [source of some confusion](https://stackoverflow.com/questions/39988048/what-is-the-origin-of-matplotlibs-symlog-a-k-a-symmetrical-log-scale),
 * and, allow this algorithm to be easily compared with the other two option. 
 
+_T(x) = sign(x)*log(1 + x)_
+
 ### Cinch
+
+A well-known function that is linear for small _x_ and logarithmic at large _x_ is the inverse hyperbolic sine function, which satisfies _sinh^{-1}(x) = ln(x + sqrt(1 + x^2))_.
 
 _T(x) = sinh^{-1}(x)_
