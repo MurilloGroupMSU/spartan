@@ -2,7 +2,7 @@ ____
 # Color theory for spartan
 ____
 
-This page summarizes some of the important aspects of color theory that are used to create color palettes in spartan. Much of this information can be found in other parts of the documentation, but this discussion is for the color nerds, those people who wish to dive a little bit more deeply into colors. The focus here on just those aspects of color theory important for understanding what spartan does; if you are interested in a more detailed and general discussion of color theory, [click here](color_theory_detailed). 
+This page summarizes some the color theory used to create color palettes in spartan. The discussion here is for color nerds; if you want to dive a bit more deeply, keep reading. The focus on this page on just those aspects of color theory important for understanding what spartan does; if you are interested in an even more detailed and general discussion of color theory, [click here](color_theory_detailed). 
 
 To make the ideas concrete and applicable to your work, I'll consider the specific problem of creating a color palette. That is, imagine you wish to have a sequence of colors that starts at given color, ends at a given color and has N-2 colors in between; this defines the color cycle, which would then repeat if sampled more than N times.
 
