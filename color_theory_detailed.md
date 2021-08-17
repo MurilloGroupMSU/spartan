@@ -2,7 +2,7 @@
 ____
 # Advanced Color Theory
 
-Color plays an important role in communicating through visualization. Understanding color requires a background knowledge in parts of physics, biology and technology.  This webpage is an attempt to coherently bring these together to provide a deeper understanding of what color is. If you are not interested in this level of detail and only wish to know the basics of how spartan uses color, [this page](color_theory.md) might be more useful to you. If you do want more, continue reading! 
+Color plays an important role in communicating through visualization. Understanding color requires knowledge of parts of physics, biology and technology.  This page is an attempt to coherently bring these topics together to provide a deeper understanding of color. If you are not interested in this level of detail and only wish to know the basics of how spartan uses color, [this page](color_theory.md) might be more useful to you. If you do want more, continue reading! 
 
 It is useful to break color science into three distinct areas: physics, biology and technology. Each of these areas treats color in quite different ways and without understanding each on its own terms, it is challenging to out them all together to understand what you are experiencing as you read this on your screen. Light is composed of colors and we need to understand how nature does that in terms of the laws that govern the universe. But, that light enters your eye and has a very complex interaction with the rods in cones in your retina, and that is before further processing in the topic nerve and brain. Then, there is the technology we have invented to mimic nature using what we know about our visual system.
 
