@@ -7,7 +7,7 @@ spartan: potent visualization
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 
-Spartan is a Python visualization library based on matplotlib that provides a style, palettes and plot types that enhance communication. The philosophy is based around Tufte's minimalist ideas as well as storytelling strategies and good use of color. 
+Spartan is a Python visualization library based on matplotlib that provides a style, palettes and plot types that enhance communication. The philosophy is based around Tufte's minimalist ideas as well as storytelling strategies and good use of color. The goal is potent and minimalistic visualizations, like a spartan.  
 
 Import the library and you will get clean, potent plots using the usual matplotlib commands. 
 
