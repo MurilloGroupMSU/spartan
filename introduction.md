@@ -1,13 +1,17 @@
 
 # Introduction to spartan
 
+There are three ways you can use spartan:
+1. simply import and use the style,
+2. choose the best palettes or create your own,
+3. use the custom plot types.
 
-The first few sections below describe spartan capabilities provided through matplotlib customizations. If that is all you use, you are able to use matplotlib commands just as you always have, but with spartan's customizations. In the later sections on plots, spartan provides new plot types not part of matplotlib.
+The first few sections below describe spartan capabilities provided through matplotlib customizations. If that is all you use, you are able to use matplotlib commands just as you always have, but with spartan's customizations. Next, use of the palettes is discussed. In the later sections on plots, spartan provides new plot types not part of matplotlib.
 
 
 ## Basic style
 
-Let's begin by comparing with `matplotlib`:
+Let's begin by comparing with matplotlib:
 
 ```python
 import numpy as np
