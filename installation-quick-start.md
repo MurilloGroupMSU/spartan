@@ -26,7 +26,13 @@ This may be all that you need! For example, here is a simple plot done in matplo
 
 * add two plots here
 
-Next, you may wish to customize your palette so that the color cycle of your plots matches your goals. Spartan provides many new palettes, which are described [here](palettes.md). This is how you reset the palette in spartan
+Note that spartan uses a lot less ink to convey the same information by highlighting the data and not the support structure.
+
+Next, you may wish to customize your palette so that the color cycle of your plots matches your goals. Spartan provides many new palettes, which are described [here](palettes.md). This is how you see the available palettes
+```python
+sp.list_palettes()
+```
+and this is how you set a palette
 ```python
 sp.change(palette = "MAC")
 ```
