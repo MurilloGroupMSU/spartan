@@ -1,10 +1,5 @@
 
-____
-## Sparklines
-____
-
-plot...
-
+# Gallery
 
 ____
 ## Minimal Line Plot
@@ -24,6 +19,14 @@ plot...
 
 ____
 ## 1D Plot
+____
+
+plot...
+
+
+
+____
+## Sparklines
 ____
 
 plot...
