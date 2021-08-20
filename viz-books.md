@@ -1,7 +1,7 @@
 
 # Visualization Books
 
-Several visualization books are described below. I recommend reading all of them, but I hightlight here what their strengths are for the reader with less time and the need to focus on specific goals. 
+Several visualization books are described below. I recommend reading all of them, of course; but, I highlight their focus so that you can start with those most appropriate to your specific goals. 
 
 ## Tufte 1
 
