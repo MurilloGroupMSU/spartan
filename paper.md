@@ -62,9 +62,5 @@ Important for traditional scientific fields [@Parish:2019], [Rougier:2014] these
 * palettes
 * themes for use cases
 
-# Citation Practice
-
-* https://github.com/ahupp/etframes
-* https://github.com/juanshishido/tufte
 
 # References
