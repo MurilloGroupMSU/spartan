@@ -23,7 +23,7 @@ Spartan is a Python library built on matplotlib for creating visualizations base
 
 # Statement of need
 
-Communicating through visualization is central to the scientific process [@Tukey:1977]. The production of scientific graphs is now guided by rules and heuristics that increase the efficiency of communication while mitigating miscommunication. Tufte [@Tufte:2001], and many others [@Schwabish:2021],[@Wilkinson:2005],[@Knaflic:2015],[@Knaflic:2020], have documented rules that increase our ability to communicate well. 
+Communicating through visualization is central to the scientific process [@Tukey:1977]. The production of scientific graphs is now guided by rules and heuristics that increase the efficiency of communication while mitigating miscommunication. Tufte [@Tufte:2001], and many others [@Schwabish:2021],[@Knaflic:2020], [@Knaflic:2015], [Rougier:2014], [@Wilkinson:2005], have documented rules that increase our ability to communicate well. 
 
 
 Some of the most important rules are:
