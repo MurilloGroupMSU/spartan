@@ -23,7 +23,7 @@ Spartan is a Python library built on matplotlib for creating visualizations base
 
 # Statement of need
 
-Communicating through visualization is central to the scientific process [@Tukey:1977]. The production of scientific graphs is now guided by rules and heuristics that increase the efficiency of communication while mitigating miscommunication. Tufte [@Tufte:2001], and many others [@Wilkinson:2005],[@Knaflic:2015],[@Knaflic:2020], have documented rules that increase our ability to communicate well. 
+Communicating through visualization is central to the scientific process [@Tukey:1977]. The production of scientific graphs is now guided by rules and heuristics that increase the efficiency of communication while mitigating miscommunication. Tufte [@Tufte:2001], and many others [@Schwabish:2021],[@Wilkinson:2005],[@Knaflic:2015],[@Knaflic:2020], have documented rules that increase our ability to communicate well. 
 
 
 Some of the most important rules are:
@@ -34,7 +34,7 @@ Some of the most important rules are:
 * choose graph types and settings that don't mislead,
 * match the narrative to the graph type.
 
-Beyond traditional fields [@Parish:2019], these issues increase in importance in the "Big Data" age [@Keim]. Python, through its matplotlib library [@Hunter], provides a powerful tool set for building custom visualizations. However, the average user may not be knowledgeable or have the time to code at a lower level that exposes matplotlib's most powerful capablities. This need has been addressed by libraries, such as seaborn [@Waskom:2021], that provide a higher-level interface to the user while providing extremely rich visualizations. However, none of these libraries directly incorporate many of the best practices into the base Matplotlib workflow. For example, the sparkline and range frame popularized by Tufte [cite] can be made in matplotlib with effort but is not part of the standard library. 
+Important for traditional scientific fields [@Parish:2019], these issues increase in importance in the "Big Data" age [@Keim]. Python, through its matplotlib library [@Hunter], provides a powerful tool set for building custom visualizations. However, the average user may not be knowledgeable or have the time to code at a lower level that exposes matplotlib's most powerful capablities. This need has been addressed by libraries, such as seaborn [@Waskom:2021], that provide a higher-level interface to the user while providing extremely rich visualizations. However, none of these libraries directly incorporate many of the best practices into the base Matplotlib workflow. For example, the sparkline and range frame popularized by Tufte [cite] can be made in matplotlib with effort but is not part of the standard library. 
 
 
 
