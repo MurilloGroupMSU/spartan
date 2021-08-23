@@ -13,9 +13,9 @@ Several visualization books are described below. I recommend reading all of them
 
 ## Grammar of Graphics
 
-## Knaplif 1
+## Knaflic 1
 
-## Kanpflic 2
+## Knaflic 2
 
-## That other guy
+## Schwabish
 
