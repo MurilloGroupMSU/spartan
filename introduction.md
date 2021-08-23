@@ -6,7 +6,7 @@ There are three ways you can use spartan:
 2. choose the best palettes or create your own,
 3. use the custom plot types.
 
-The first few sections below describe spartan capabilities provided through matplotlib customizations. If that is all you use, you are able to use matplotlib commands just as you always have, but with spartan's customizations. Next, use of the palettes is discussed. In the later sections on plots, spartan provides new plot types not part of matplotlib.
+The first few sections below describe spartan capabilities provided as matplotlib customizations; that is, spartan provides a clean plot style, contexts and color palettes to use within your current matplotlib workflow. Just make your selections and use matplotlib commands just as you always have. In the later sections on plots, spartan provides new plot types not part of matplotlib.
 
 
 ## Basic style
